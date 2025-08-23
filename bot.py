@@ -1,21 +1,15 @@
-from telegram import Update
-from telegram.ext import Application, CommandHandler, ContextTypes
+import os
+from telegram.ext import Application, CommandHandler
 
-TOKEN = "YOUR_TOKEN"
+# اینجا BOT_TOKEN رو از Environment Variable می‌خونه
+TOKEN = os.getenv("BOT_TOKEN")
 
-# دستور /start
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("سلام! ربات روشنه 🚀")
+app = Application.builder().token(TOKEN).build()
 
-def main():
-    # ساخت اپلیکیشن
-    application = Application.builder().token(TOKEN).build()
+async def start(update, context):
+    await update.message.reply_text("سلام! ربات روشنه ✅")
 
-    # اضافه کردن هندلر
-    application.add_handler(CommandHandler("start", start))
-
-    # شروع ربات
-    application.run_polling()
+app.add_handler(CommandHandler("start", start))
 
 if __name__ == "__main__":
-    main()
+    app.run_polling()
