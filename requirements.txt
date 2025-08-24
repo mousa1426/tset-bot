@@ -1,5 +1,1 @@
-pip>=23.0
-setuptools>=65.0
-wheel>=0.40
-pandas
-python-telegram-bot
+python-telegram-bot==13.15
