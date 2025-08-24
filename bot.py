@@ -2,7 +2,7 @@ import json
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "8255406778:AAFb3QdVHVQdzhVa0roFfOMpN6u5YzwKkVk"
 
 # بارگذاری لیست اولیه نمادها
 with open("options.json", "r", encoding="utf-8") as f:
