@@ -9,7 +9,7 @@ with open("options.json", "r", encoding="utf-8") as f:
     options = json.load(f)
 
 # سهم پایه (مثال: اهرم)
-BASE_SHARE = {"inscode": "123456789", "name": "اهرم"}
+BASE_SHARE = {"inscode": "17914401175772326", "name": "اهرم"}
 if BASE_SHARE not in options:
     options.append(BASE_SHARE)
 
