@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # توکن ربات از محیط
-BOT_TOKEN = "8255460778:AAHY4dInzMMPfeDdMlssKFX_56RiB-buJg"
+BOT_TOKEN = "8255406778:AAFb3QdVHVQdzhVa0roFfOMpN6u5YzwKkVk"
 
 # نمادهای ثبت شده
 watchlist = []
