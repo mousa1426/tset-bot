@@ -8,8 +8,8 @@ import datetime
 
 # ----------------------------
 # 🔑 توکن ربات تلگرام
-TOKEN = "PUT-YOUR-BOT-TOKEN-HERE"
-CHAT_ID = "PUT-YOUR-CHAT-ID-HERE"   # چت آی‌دی خودت برای ارسال خودکار
+TOKEN = "8255406778:AAHY4dInzMMPrEeDdMlssKFX_56RiB-buJg"
+CHAT_ID = "https://t.me/mousa1363"   # چت آی‌دی خودت برای ارسال خودکار
 # ----------------------------
 
 logging.basicConfig(
